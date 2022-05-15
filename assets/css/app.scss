@@ -3,6 +3,7 @@
 
 #chat-containter
 {
+  overflow-y: scroll;
   display: flex;
   border: 1px solid #cccccc;
   padding: 1em;
@@ -12,6 +13,7 @@
 }
 #chat-messages
 {
+  overflow-y: scroll;
   flex-grow: 1;
 }
 
